@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: black;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+.title{
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.heading{
+    padding: 20px;
+    color: white;
+    background-color: #E26831;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+    font-size: 25px;
+    transition-duration: 0.45s;
+    font-family: 'Bebas Neue', cursive;
+
+}
+.heading:hover{
+    transform: scale(1.04);
+    transition-duration: 0.45s;
+}
+.p-heading{
+    padding: 10px;
+    color: white;
+    background-color: #E26831;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+    width: 30%;
+    transition-duration: 0.45s;
+}
+.p-heading:hover{
+    transform: scale(1.04);
+    transition-duration: 0.45s;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 20%;
+}
+.l-heading{
+    padding: 10px;
+    color: white;
+    background-color: #E26831;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+    width: 30%;
+    transition-duration: 0.45s;
+}
+.l-heading:hover{
+    transform: scale(1.04);
+    transition-duration: 0.45s;
+}
+.flex-start{
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    left: 10%;
+}
+.flex-end{
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+    right: 10%;
+}
+.everything{
+    position: relative;
+    top: 100px;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+}
+footer{
+    width: 100%;
+    background-color: white;
+    height: 20px;
+    margin-top: 250px;
+    position: relative;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: #E26831;
+}
+.start{
+    padding: 5px;
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid red;
+}
+#container {
+	margin: 0px auto;
+	width: 500px;
+	height: 375px;
+	border: 10px #E26831 solid;
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+#videoElement {
+	width: 500px;
+	height: 375px;
+	background-color: #666;
+    border-radius: 20px;
+}
+.bg-color{
+    background-color: #545454;
+}
+.footer{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: black;
+    margin-bottom: 100px;
+}
+.camer-audio{
+    width: 10%;
+    height: 30px;
+    background-color: #E26831;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.grid { 
+    display: grid; 
+    grid-template-columns: auto auto; 
+    margin-top: 5px;
+}
+.fix{
+    width: 95%;
+}
+.headingh{
+    padding: 20px;
+    color: white;
+    background-color: #E26831;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+    font-size: 25px;
+    transition-duration: 0.45s;
+    font-family: 'Bebas Neue', cursive;
+    width: 30%;
+    left: 100px;
+}
